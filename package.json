@@ -1,0 +1,54 @@
+{
+  "name": "react-mobx-boiler-plate-2",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "cra-template": "1.0.3",
+    "customize-cra": "^1.0.0",
+    "history": "^5.0.1",
+    "memoize-one": "^5.2.1",
+    "mobx": "^5.15.4",
+    "mobx-react": "^6.2.2",
+    "node-sass": "^4.14.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.14.0",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.1",
+    "react-window": "^1.8.6"
+  },
+  "engines": {
+    "node": "14.17.6"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "eject": "react-app-rewired eject",
+    "test": "npm start && npx cypress run",
+    "build-gh-pages": "PUBLIC_URL=/metrics-crypto/ react-app-rewired build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-decorators": "^7.13.15",
+    "cypress": "^8.3.1",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-react": "^7.20.3",
+    "react-app-rewired": "^2.1.6"
+  }
+}

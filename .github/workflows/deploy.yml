@@ -1,0 +1,39 @@
+name: Build and publish
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout 
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: '14.17.6'
+          registry-url: 'https://registry.npmjs.org'
+      
+      - name: Install and Build
+        run: |
+          yarn
+          yarn build-gh-pages
+
+      - name: Tests e2e Cypress at GitHub Pages ✨
+        uses: cypress-io/github-action@v6
+        with:
+          start: yarn start
+          browser: chrome
+
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@4.0.0
+        
+        with:
+          branch: gh-pages
+          folder: build
+          
+      - run: printf Deployed!
