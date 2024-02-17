@@ -10,8 +10,12 @@ As I remember, at our call you said that you prefer Mobx state management. I did
 
 ### Tests
 
-E2E tests can be foun at `cypress/integration/filtering.spec.js` [link](https://github.com/shapkarin/crypto-metrics/blob/main/cypress/integration/filtering.spec.js)
-it also works with deploy, check `.github/workflows/deploy.yml` [link](https://github.com/shapkarin/crypto-metrics/blob/main/.github/workflows/deploy.yml)
+E2E tests can be foun at `cypress/integration/filtering.spec.js` [link](https://github.com/shapkarin/metrics-crypto/blob/main/cypress/integration/filtering.spec.js)
+
+it also works with deploy, check `.github/workflows/deploy.yml` [link](https://github.com/shapkarin/metrics-crypto/blob/main/.github/workflows/deploy.yml)
+
+<img width="650" alt="Screenshot 2024-02-17 at 07 10 45" src="https://github.com/shapkarin/metrics-crypto/assets/1463086/e93103e0-0923-49f2-ac06-6205c908922d">
+
 
 ### Deploy
 
