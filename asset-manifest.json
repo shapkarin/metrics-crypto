@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/metrics-crypto/static/css/main.384b05cf.chunk.css",
+    "main.js": "/metrics-crypto/static/js/main.a698a719.chunk.js",
+    "main.js.map": "/metrics-crypto/static/js/main.a698a719.chunk.js.map",
+    "runtime-main.js": "/metrics-crypto/static/js/runtime-main.d23e7631.js",
+    "runtime-main.js.map": "/metrics-crypto/static/js/runtime-main.d23e7631.js.map",
+    "static/js/2.17fbc665.chunk.js": "/metrics-crypto/static/js/2.17fbc665.chunk.js",
+    "static/js/2.17fbc665.chunk.js.map": "/metrics-crypto/static/js/2.17fbc665.chunk.js.map",
+    "index.html": "/metrics-crypto/index.html",
+    "precache-manifest.28dc67da198f1190df6875388f7d4686.js": "/metrics-crypto/precache-manifest.28dc67da198f1190df6875388f7d4686.js",
+    "service-worker.js": "/metrics-crypto/service-worker.js",
+    "static/css/main.384b05cf.chunk.css.map": "/metrics-crypto/static/css/main.384b05cf.chunk.css.map",
+    "static/js/2.17fbc665.chunk.js.LICENSE.txt": "/metrics-crypto/static/js/2.17fbc665.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d23e7631.js",
+    "static/js/2.17fbc665.chunk.js",
+    "static/css/main.384b05cf.chunk.css",
+    "static/js/main.a698a719.chunk.js"
+  ]
+}
