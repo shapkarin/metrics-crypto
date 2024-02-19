@@ -4,7 +4,7 @@
 - [Deploy](#deploy)
 - [Key Concepts](#key-concepts)
 
-### Intro
+### Explanation
 
 - To `reduce` the React `render memory usage` this app uses `windowing technique`. As soon as it's React app I decided to add `react-window` to render `only visible part` of the `large lists` that comes from computed out of storage.
 - It stores lists as separated `key-value structures` that offers to have quick access to the values by `unique keys`
