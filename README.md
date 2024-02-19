@@ -26,7 +26,5 @@ it also works with deploy, check `.github/workflows/deploy.yml` [link](https://g
 Repo uses GitHub Actions to deploy to the GitHub Pages.
 check `.github/workflows/deploy.yml`
 
-### Key Concepts
-
 
 
